@@ -6,6 +6,7 @@ import webappImg from "@/public/WorkFlow.png";
 import getToGatherImg from "@/public/JQ.png";
 import currencyConverterImg from "@/public/AIDOC.png";
 import ffgImg from "@/public/Women-Abuse.png";
+// import TradeSenseAI from "https://awstip.com/unleashing-the-power-of-ai-tradesense-ai-a-seamless-stock-price-prediction-experience-1a7dbc321063";
 import kidimakodoImg from "@/public/kidi-makodo.webp";
 import { Img } from "@react-email/components";
 
@@ -79,6 +80,7 @@ export const projectsData = [
       "Successfully integrated cutting-edge AI technologies to create a seamless and efficient platform for day-ahead stock price predictions",
     tags: ["Python", "SageMaker", "S3", "Lambda Functions", "API Gateway", "Amazon SNS"],
     imageUrl: webappImg,
+    linkUrl: "https://awstip.com/unleashing-the-power-of-ai-tradesense-ai-a-seamless-stock-price-prediction-experience-1a7dbc321063",
   },
   {
     title: "Job Quest",
@@ -86,6 +88,7 @@ export const projectsData = [
       "Developed and Deployed an extention on chrome web store to help job seekers to keep track of their applied jobs",
     tags: ["JavaScript","HTML", "CSS", "Chrome Extension"],
     imageUrl: getToGatherImg,
+    linkUrl: "https://chromewebstore.google.com/detail/job-quest/kcbegomniocdkdeefakmkhabkbcidhlf",
   },
   {
     title: "AIDOC",
@@ -93,6 +96,8 @@ export const projectsData = [
       "Innovated cross-plateform  app enabling disease diagnosis using scanned X-rays & MRI images.",
     tags: ["FLutter", "Firebase", "TensorFlow", "Flask"],
     imageUrl: currencyConverterImg,
+    linkUrl: "https://www.linkedin.com/feed/update/urn:li:activity:6766947866050134016/?originTrackingId=F%2FpdsXA%2FRl%2BlizjPvVwTMQ%3D%3D",
+
   },
   {
     title: "Women Abuse Reporting System",
@@ -100,6 +105,8 @@ export const projectsData = [
       "Design a software system that can initiate a restoration process for a woman who has been a victim of atrocities through reporting to an NGO",
     tags: ["Java","db4o", "GitHub", "NetBeans"],
     imageUrl: ffgImg,
+    linkUrl: "https://github.com/Patel-Daksh/Women-Abuse-Reporting-System",
+
   }
 ] as const;
 
