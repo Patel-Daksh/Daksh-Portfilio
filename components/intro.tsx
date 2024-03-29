@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="DakshImage.png"
+              src="/DakshImage.png"
               alt="Daksh portrait"
               width="350"
               height="350"
